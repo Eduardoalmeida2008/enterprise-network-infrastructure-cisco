@@ -16,7 +16,7 @@ This repository contains the complete documentation and configuration for **Proj
 The project implements rigorous security via **Extended Access Control Lists (ACLs)**, specifically applied to protect sensitive zones.
 
 ### Security Logic Validated:
-- **VLAN 50 Security:** Configured on **R2** to strictly allow traffic ONLY from **VLAN 60**. All other VLANs (including **VLAN 40**) are denied access to this segment.
+- **VLAN 50 Security:** Configured on **R2** to strictly allow traffic ONLY from **VLAN 60**. All other VLANs are denied access to this segment.
 - **VLAN 90 & 130 Protection:** Specific ACLs applied to these interfaces to ensure traffic isolation and authorized access only, as documented in the evidence files.
 - **Edge Filtering:** Security is applied at the interface level, ensuring that filtering happens at the closest gateway point.
 
